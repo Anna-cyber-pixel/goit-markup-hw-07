@@ -23,11 +23,11 @@
   <body>
     <header class="header">
       <div class="conteiner">
-        <a href="./index.html" class="header-logo link logo"
+        <a href="./index.html" class="header__logo link logo"
           ><span class="logo__accent">Web</span>Studio</a
         >
         <nav>
-          <ul class="navigation list">
+          <ul class="navigation header__navigation list">
             <li class="navigation__item">
               <a href="./index.html" class="navigation__link link current"
                 >Студія</a
@@ -43,7 +43,7 @@
             </li>
           </ul>
         </nav>
-        <div class="connect">
+        <div class="connect header__connect">
           <a href="mailto:info@devstudio.com" class="connect__link link">
             <svg class="connect__icon mail" width="16" height="12">
               <use href="./images/icon-defs.svg#icon-envelope"></use>
@@ -60,7 +60,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero hero__conteiner">
         <div class="conteiner">
           <h1 class="hero__title">
             Ефективні рішення для<br />
@@ -178,7 +178,7 @@
               <div class="team__content">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__appointment" lang="en">Product Designer</p>
-                <ul class="soc list">
+                <ul class="soc soc__list  list">
                   <li class="soc__item">
                     <a href="" class="soc__link soc__link_color_team link">
                       <svg class="soc__icon" width="20" height="20">
@@ -220,7 +220,7 @@
               <div class="team__content">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__appointment" lang="en">Frontend Developer</p>
-                <ul class="soc list">
+                <ul class="soc soc__list list">
                   <li class="soc__item">
                     <a href="" class="soc__link soc__link_color_team link">
                       <svg class="soc__icon" width="20" height="20">
@@ -262,7 +262,7 @@
               <div class="team__content">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__appointment" lang="en">Marketing</p>
-                <ul class="soc list">
+                <ul class="soc soc__list list">
                   <li class="soc__item">
                     <a href="" class="soc__link soc__link_color_team link">
                       <svg class="soc__icon" width="20" height="20">
@@ -304,7 +304,7 @@
               <div class="team__content">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p class="team__appointment" lang="en">UI Designer</p>
-                <ul class="soc list">
+                <ul class="soc soc__list list">
                   <li class="soc__item">
                     <a href="" class="soc__link soc__link_color_team link">
                       <svg class="soc__icon" width="20" height="20">
@@ -410,7 +410,7 @@
         </div>
         <div>
           <h3 class="footer__title">Приєднуйтесь</h3>
-          <ul class="soc list">
+          <ul class="soc soc__list list">
             <li class="soc__item">
               <a href="" class="soc__link soc__link_color_footer link">
                 <svg class="soc__icon" width="20" height="20">
@@ -544,7 +544,7 @@
                   <use href="./images/icon-defs.svg#icon-check"></use></svg
               ></span>
               Погоджуюся з розсилкою та приймаю &nbsp;
-              <a href="" class="terms"> Умови договору</a>
+              <a href="" class="modal__terms"> Умови договору</a>
             </label>
           </div>
           <button type="submit" class="check__btn btn">Відправити</button>
