@@ -88,13 +88,15 @@ body {
 .header__logo {
   margin-right: 93px;
 }
+.header__logo--color {
+  color: var(--black);
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--black);
 }
 .logo__accent {
   font-family: "Raleway";
@@ -175,12 +177,10 @@ body {
   bottom: 0px;
 }
 
-
 .header > .conteiner {
   display: flex;
   align-items: center;
 }
-
 
 /* -------------HERO---------- */
 .hero {
@@ -194,7 +194,7 @@ body {
     url(../images/bg-hero.jpg);
   max-width: 1600px;
 }
-.hero__conteiner{
+.hero__conteiner {
   margin: auto;
 }
 
@@ -357,13 +357,13 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.soc__link_color_team {
+.soc__link--color-team {
   color: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc__link_color_footer {
+.soc__link--color-footer {
   color: var(--secondary-title-color);
   background: rgba(255, 255, 255, 0.1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -420,10 +420,11 @@ body {
 }
 .footer__logo {
   display: inline-block;
-  color: var(--secondary-title-color);
   margin-bottom: 20px;
 }
-
+.footer__logo--color {
+  color: var(--secondary-title-color);
+}
 .footer__content {
   display: flex;
   gap: 70px;
@@ -490,7 +491,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-
 }
 .footer__form {
   margin-left: auto;
@@ -648,7 +648,7 @@ body {
 .modal__btm:hover .modal__close {
   fill: var(--accent-color);
 }
-.modal__close{
+.modal__close {
   position: absolute;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
