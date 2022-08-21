@@ -1,0 +1,30 @@
+.advantage__list {
+  display: flex;
+  gap: 30px;
+}
+.advantage__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-title-color);
+}
+.advantage__text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.advantage__bg {
+  display: flex;
+  width: 270px;
+  height: 130px;
+  background-color: var(--primery-bg-color);
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.advantage__icon {
+  fill: currentColor;
+}
